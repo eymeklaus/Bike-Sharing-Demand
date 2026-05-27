@@ -1,11 +1,8 @@
 # **Bike Sharing Demand**
-<img width="1620" height="900" alt="bike_drawing" src="<a href="https://www.pngkey.com/detail/u2y3q8o0o0a9i1o0_free-png-bike-drawing-png-image-with-transparent/" target="_blank">Free Png Bike Drawing Png Image With Transparent Background - Bicycle Clip Art Png @pngkey.com</a>" />
+![bike](image/bike.png)
 
-## Context & Design
-This repository contains the dataset of the number of bikes rented in Seoul's bike sharing system. 
-
-### Project Overview:
-This project consist in the demand analysis conducted using three Models of Machine Learning (ML): Linear Regression, Random Forest and XGBoost were applied to four variations of the original dataset. Three Evaluation Metrics were evaluated R2 (Coefficient of Determination), MAE (Mean Absolute Error) and MSE (Mean Squared Error) This project explores the design, feature Engineering, Models, and Evaluation Metrics
+## Project Overview:
+This project contains the dataset of the number of bikes rented in Seoul's bike sharing system and consist in the demand prediction conducted using three Models of Machine Learning (ML): Linear Regression, Random Forest and XGBoost were applied to four variations of the original dataset. Three Evaluation Metrics were evaluated R2 (Coefficient of Determination), MAE (Mean Absolute Error) and MSE (Mean Squared Error) This project explores the design, feature Engineering, Models, and Evaluation Metrics
 
 **Objective**: 
 Is predict a new outcome based on the trained prediction model in ML. 
@@ -16,14 +13,14 @@ Is predict a new outcome based on the trained prediction model in ML.
 2. [:broom: Data Cleaning & Exploration](#data-cleaning--preprocessing)  
 3. [:hammer_and_pick: Feature Engineering](#feature-engineering)  
 4. [✨ Predictive Modeling](#predictive-modeling)  
-5. [:white_check_mark: Presentation](#presentation)  
+5. [:white_check_mark: Model Performance](#presentation)  
 
 ---
 
 # :computer: Data Collection
 The raw data consisted of a datasets capturing rented bikes, weather and datetime data:
 
-1. **`Dataset` (Client Demographics and Behavior Data)**
+### `Dataset` (Seoul's bike sharing system)**
    - The original dataset was download from [datalab](https://www.datacamp.com/datalab/datasets/dataset-python-bike-sharing-demand)
    - **Duration**: December 01, 2017 – November 30, 2018
 ---
@@ -31,14 +28,14 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
 # :broom: Data Cleaning & Preprocessing
 
 ### 1. **Exploratory Data Analysis** 
-   - Descriptive analysis from the numerical and categorical features
+   - Descriptive analysis from numerical and categorical features
    - Null Values
    - Duplicates
 ### 2. **Visualization**
-   - Distribution Visualization for each feature
-   - Outliers for each feature
-   - Scatter Plots for numerical variables
-   - Violin Plots for segment visualization (Rented Bike Count and Categorical features)
+   - Distribution Visualization
+   - Outliers 
+   - Scatter Plots 
+   - Violin Plots for segment visualization
 
 ---
 
@@ -54,29 +51,30 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
 
 # ✨ Predictive Modeling
 
-#### 1. **Three Models**
+### 1. **Three Models**
    - **Linear Regression**: raw and normalize
    - **Random Forest**: raw and normalize
    - **XGboost**: raw and normalize
 
-#### 2. **Hyperparameter Tuning**
+### 2. **Hyperparameter Tuning**
+   - ****  
 
-#### 3. **Evaluation Metrics**
+### 3. **Evaluation Metrics**
    - **R2** (Coefficient of Determination)
    - **MAE** (Mean Absolute Error)
    - **MSE** (Mean Squared Error)
 
-#### 4. **Tech Stack** 
+### 4. **Tech Stack** 
 
-## **Data Manipulation**  
+### **Data Manipulation**  
 - **pandas**
 - **numpy**   
 
-## **Visualization** 
+### **Visualization** 
  - **matplotlib** 
  - **seaborn**
  
-## **Models**  
+### **Models**  
 - ****  
 - ****
 - ****
@@ -85,8 +83,10 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
 - **** 
 - ****
 
-#### 4. **Model Performance**
 ---
 
-# :white_check_mark: Presentation
-The Presentation can be found in the next link: 
+# :white_check_mark: Model Performance
+
+---
+
+## The Presentation can be found in the next link: 
