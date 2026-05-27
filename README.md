@@ -89,4 +89,4 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
 
 ---
 
-## The Presentation can be found in the next link: 
+## The Presentation can be found in the next link: https://docs.google.com/presentation/d/1mEJSKIMnPkwGTqyHzYf_Kuy4GIkO6_KDaczxgfRkAN8/edit?slide=id.g3e4f1340bd6_0_29#slide=id.g3e4f1340bd6_0_29
