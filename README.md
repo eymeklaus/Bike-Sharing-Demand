@@ -45,8 +45,9 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
 |:----:|:-----:|
 | df1 | One Hot Encoding for Holiday and Seasons |
 | df2 | One Hot Encoding for Holiday and Seasons, Ciclycal Date |
-| df3 | Rented Bike Count without outliers |
+| df3 | One Hot Encoding for Holiday and Seasons, Ciclycal Date, Remove Outliers |
 | df4 | One Hot Encoding for Holiday and Seasons, Ciclycal Date, Weather Condition |
+| df5 | One Hot Encoding for Holiday and Seasons, Remove Outliers |
 ---
 
 # ✨ Predictive Modeling
@@ -75,13 +76,13 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
  - **seaborn**
  
 ### **Models**  
-- ****  
-- ****
-- ****
-- ****
-- ****
-- **** 
-- ****
+- **sklearn.model_selection**  
+- **sklearn.preprocessing**
+- **sklearn.linear_model**
+- **sklearn.tree**
+- **sklearn.ensemble**
+- **sklearn.metrics** 
+- **xgboost**
 
 ---
 
@@ -92,5 +93,6 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
 <<<<<<< HEAD
 ### The Presentation can be found in the next link: 
 =======
-## The Presentation can be found in the next link: https://docs.google.com/presentation/d/1mEJSKIMnPkwGTqyHzYf_Kuy4GIkO6_KDaczxgfRkAN8/edit?slide=id.g3e4f1340bd6_0_29#slide=id.g3e4f1340bd6_0_29
+## The Presentation can be found in the next link: 
+https://docs.google.com/presentation/d/1mEJSKIMnPkwGTqyHzYf_Kuy4GIkO6_KDaczxgfRkAN8/edit?slide=id.g3e4f1340bd6_0_29#slide=id.g3e4f1340bd6_0_29
 >>>>>>> 5a7925e88e371b0baac62793a5b9c4fae5d82dd6
