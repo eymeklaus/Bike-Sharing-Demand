@@ -7,7 +7,7 @@ This project contains the dataset of the number of bikes rented in Seoul's bike 
 **Objective**: 
 Is predict a new outcome based on the trained prediction model in ML. 
 
-# 📁 Table of Contents
+## 📁 Table of Contents
  
 1. [:computer: Data Collection](#data-collection)  
 2. [:broom: Data Cleaning & Exploration](#data-cleaning--preprocessing)  
@@ -17,15 +17,13 @@ Is predict a new outcome based on the trained prediction model in ML.
 
 ---
 
-# :computer: Data Collection
+## :computer: Data Collection
 The raw data consisted of a datasets capturing rented bikes, weather and datetime data:
-
-### `Dataset` (Seoul's bike sharing system)**
-   - The original dataset was download from [datalab](https://www.datacamp.com/datalab/datasets/dataset-python-bike-sharing-demand)
+   - The original dataset **Seoul's bike sharing system** was download from [datalab](https://www.datacamp.com/datalab/datasets/dataset-python-bike-sharing-demand)
    - **Duration**: December 01, 2017 – November 30, 2018
 ---
 
-# :broom: Data Cleaning & Preprocessing
+## :broom: Data Cleaning & Preprocessing
 
 ### 1. **Exploratory Data Analysis** 
    - Descriptive analysis from numerical and categorical features
@@ -39,7 +37,7 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
 
 ---
 
-# :hammer_and_pick: Feature Engineering
+## :hammer_and_pick: Feature Engineering
 
 | Dataset | Special Features |
 |:----:|:-----:|
@@ -50,7 +48,7 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
 | df5 | One Hot Encoding for Holiday and Seasons, Remove Outliers |
 ---
 
-# ✨ Predictive Modeling
+## ✨ Predictive Modeling
 
 ### 1. **Three Models**
    - **Linear Regression**: raw and normalize
@@ -86,13 +84,14 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
 
 ---
 
-# :white_check_mark: Model Performance
-
+## :white_check_mark: Model Performance
+- **Best Model**: XGBoost
+- **Best Dataset**: df3 normalized
+- **R2**: 0.933
+- **MAE**: 88.12
+- **RMSE**: 151.645
 ---
 
-<<<<<<< HEAD
-### The Presentation can be found in the next link: 
-=======
 ## The Presentation can be found in the next link: 
-https://docs.google.com/presentation/d/1mEJSKIMnPkwGTqyHzYf_Kuy4GIkO6_KDaczxgfRkAN8/edit?slide=id.g3e4f1340bd6_0_29#slide=id.g3e4f1340bd6_0_29
->>>>>>> 5a7925e88e371b0baac62793a5b9c4fae5d82dd6
+ https://docs.google.com/presentation/d/1mEJSKIMnPkwGTqyHzYf_Kuy4GIkO6_KDaczxgfRkAN8/edit?slide=id.g3e4f1340bd6_0_29#slide=id.g3e4f1340bd6_0_29
+
