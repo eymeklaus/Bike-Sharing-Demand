@@ -56,7 +56,8 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
    - **XGboost**: raw and normalize
 
 ### 2. **Hyperparameter Tuning**
-   - ****  
+   - GridSearchCV
+   - RandomSearchCV
 
 ### 3. **Evaluation Metrics**
    - **R2** (Coefficient of Determination)
@@ -85,11 +86,17 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
 ---
 
 ## :white_check_mark: Model Performance
-- **Best Model**: XGBoost
+- **Best Model**: XGBoost (GridSearch)
 - **Best Dataset**: df3 normalized
 - **R2**: 0.933
 - **MAE**: 88.12
 - **RMSE**: 151.645
+
+- **Best Model**: XGBoost (GridSearch)
+- **Best Dataset**: df3 normalized
+- **R2**: 0.936
+- **MAE**: 86.942
+- **RMSE**: 148.294
 ---
 
 ## The Presentation can be found in the next link: 
