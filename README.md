@@ -86,17 +86,17 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
 ---
 
 ## :white_check_mark: Model Performance
-- **Best Model**: XGBoost (GridSearch)
-- **Best Dataset**: df3 
-- **R2**: 0.933
-- **MAE**: 88.12
-- **RMSE**: 151.645
+|Model XGBoost Grid Search| Dataset: df3|
+|:----:|:-----:|
+| Metric | Value |
+|**R2**|0.933|
+|**MAE**|88.12|
+|**RMSE**|151.645|
+|Model XGBoost RandomizedSearch| Dataset: df3|
+|**R2**|0.936|
+|**MAE**|86.942|
+|**RMSE**|148.294|
 
-- **Best Model**: XGBoost (RandomizedSearch)
-- **Best Dataset**: df3 
-- **R2**: 0.936
-- **MAE**: 86.942
-- **RMSE**: 148.294
 ---
 
 ## The Presentation can be found in the next link: 
