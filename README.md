@@ -43,9 +43,9 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
 |:----:|:-----:|
 | df1 | One Hot Encoding for Holiday and Seasons |
 | df2 | One Hot Encoding for Holiday and Seasons, Ciclycal Date |
-| df3 | One Hot Encoding for Holiday and Seasons, Ciclycal Date, Remove Outliers |
+| df3 | One Hot Encoding for Holiday and Seasons, Ciclycal Date, Outliers removal |
 | df4 | One Hot Encoding for Holiday and Seasons, Ciclycal Date, Weather Condition |
-| df5 | One Hot Encoding for Holiday and Seasons, Remove Outliers |
+| df5 | One Hot Encoding for Holiday and Seasons, Outliers removal |
 ---
 
 ## ✨ Predictive Modeling
@@ -88,11 +88,12 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
 ## :white_check_mark: Model Performance
 |Model XGBoost Grid Search| Dataset: df3|
 |:----:|:-----:|
-| Metric | Value |
+| **Metric** | **Value** |
 |**R2**|0.933|
 |**MAE**|88.12|
 |**RMSE**|151.645|
 |**Model XGBoost RandomizedSearch**| **Dataset: df3**|
+| **Metric** | **Value** |
 |**R2**|0.936|
 |**MAE**|86.942|
 |**RMSE**|148.294|
