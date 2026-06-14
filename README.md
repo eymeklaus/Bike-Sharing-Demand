@@ -45,7 +45,6 @@ The raw data consisted of a datasets capturing rented bikes, weather and datetim
 | df2 | One Hot Encoding for Holiday and Seasons, Ciclycal Date |
 | df3 | One Hot Encoding for Holiday and Seasons, Ciclycal Date, Outliers removal |
 | df4 | One Hot Encoding for Holiday and Seasons, Ciclycal Date, Weather Condition |
-| df5 | One Hot Encoding for Holiday and Seasons, Outliers removal |
 ---
 
 ## ✨ Predictive Modeling
